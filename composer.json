@@ -1,0 +1,6 @@
+{
+    "name": "primitive router/api/storage",
+    "require": {
+        "neoan3-apps/ops": "^2.0"
+    }
+}

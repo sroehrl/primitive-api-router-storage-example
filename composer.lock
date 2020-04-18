@@ -1,0 +1,93 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ca0419f379b6846ab2a7ff395088675e",
+    "packages": [
+        {
+            "name": "neoan3-apps/ops",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-ops.git",
+                "reference": "3b8f7a49ae499becaf42972fefeaca8361910f97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-ops/zipball/3b8f7a49ae499becaf42972fefeaca8361910f97",
+                "reference": "3b8f7a49ae499becaf42972fefeaca8361910f97",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "neoan3-apps/template": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "neoan3 common string operations helper class",
+            "time": "2020-02-02T19:14:40+00:00"
+        },
+        {
+            "name": "neoan3-apps/template",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-template.git",
+                "reference": "26015385da22dec85bf3dc3428d4d92e2558925b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-template/zipball/26015385da22dec85bf3dc3428d4d92e2558925b",
+                "reference": "26015385da22dec85bf3dc3428d4d92e2558925b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "neoan3 minimal template engine",
+            "time": "2020-02-05T01:14:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
