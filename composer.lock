@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca0419f379b6846ab2a7ff395088675e",
+    "content-hash": "52714fcbf651c2f4f22e2d11a5e4ba6a",
     "packages": [
         {
             "name": "neoan3-apps/ops",
@@ -45,16 +45,16 @@
         },
         {
             "name": "neoan3-apps/template",
-            "version": "1.0.3",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sroehrl/neoan3-template.git",
-                "reference": "26015385da22dec85bf3dc3428d4d92e2558925b"
+                "reference": "47269808fac28354fa20c77bec29919967cc4830"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sroehrl/neoan3-template/zipball/26015385da22dec85bf3dc3428d4d92e2558925b",
-                "reference": "26015385da22dec85bf3dc3428d4d92e2558925b",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-template/zipball/47269808fac28354fa20c77bec29919967cc4830",
+                "reference": "47269808fac28354fa20c77bec29919967cc4830",
                 "shasum": ""
             },
             "require": {
@@ -65,7 +65,7 @@
                 "ext-openssl": "*"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.3"
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
             "autoload": {
@@ -78,7 +78,7 @@
                 "MIT"
             ],
             "description": "neoan3 minimal template engine",
-            "time": "2020-02-05T01:14:49+00:00"
+            "time": "2021-10-21T23:48:25+00:00"
         }
     ],
     "packages-dev": [],
